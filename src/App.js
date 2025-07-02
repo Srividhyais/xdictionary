@@ -1,10 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
+import XDictionary from './XDictionary';
 
 function App() {
   return (
     <div >
-      <Dictionary/>
+      <XDictionary/>
     </div>
   );
 }
