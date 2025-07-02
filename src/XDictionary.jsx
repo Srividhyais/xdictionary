@@ -31,10 +31,10 @@ const XDictionary = () => {
         onChange={(e) => setSearchTerm(e.target.value)}
       />
       <button onClick={handleSearch}>Search</button>
+      <h3>Definition:</h3>
 
       {definition && (
         <div style={{ marginTop: "20px" }}>
-            <h3>Definition:</h3>
             <p>{definition}</p>
         </div>
       )}
